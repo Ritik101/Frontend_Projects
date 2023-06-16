@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #c9adf9;
+    font-family: Verdana;
+}
+h1{
+    text-align: center;
+    margin: 20px 0px;
+}
+form{
+    background-color: #fff;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+form p{
+    text-align: left;
+    margin-bottom: 25px;
+}
+form p label {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+form p label select,form p input,form p textarea{
+    border: 3px solid #6d18ff ;
+    border-radius: 4px;
+    font-family: inherit;
+    padding: 8px;
+    display: block;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+}
+form p label input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  }
+form p input[type="radio"]{
+    display: inline-block;
+    width: auto;
+}
+form p input[type="radio"]:hover{
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+}
+button{
+    background-color: #ffffff;
+    border: 5px solid #6d18ff ;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin: 40px 0px;
+    padding: 10px 0px;
+}
+button:hover{
+    cursor: pointer;
+    background-color:#c9adf9 ;
+    border: 5px solid #6d18ff ;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 90%;
+    margin: 40px 0px;
+    padding: 10px 0px;
+}
